@@ -1,12 +1,7 @@
-# rust-reticulum
+# Pure poison
 
-Experimental implementaition of Reticulum in Rust.
+Based on: https://jirijakes.com/code/rust-reticulum
 
-## Have a look
+Poison routing in RNS with blazingly fast performance by abusing the fact that nodes only remember last 64 announces
 
-```
-fossil clone https://jirijakes.com/code/rust-reticulum
-ls -la crates/examples/src/bin/
-
-cargo run --bin announce
-```
+## FIXES IN LATEST RNS
